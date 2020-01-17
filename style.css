@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after { 
+    box-sizing: inherit; 
+  }
+
+  div {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .one {
+    background: thistle;
+  }
+
+  .two {
+    background: mistyrose;
+  }
+
+  .three {
+    background: coral;
+  }
+
+  button {
+      width: 200px;
+      height: 100px;
+      font-size: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
